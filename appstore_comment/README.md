@@ -4,7 +4,7 @@
 
 ### Install
 
-*The quick way::
+*The quick way:
 ```
     pip install -r requirements.txt
 
