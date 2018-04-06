@@ -13,5 +13,17 @@
 ### Run
 
 ```
-    python quick.py
+    python startquick.py
+```
+
+### Update url to spider
+
+```
+    python refresh.py
+```
+
+### Set redis server
+* settings.py
+```
+    REDIS_HOST = '127.0.0.1'
 ```
