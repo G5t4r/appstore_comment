@@ -1,6 +1,6 @@
 ### equirements
 
-* Python 2.7 or Python 3.4+
+* Python 2.7
 
 ### Install
 
@@ -13,5 +13,20 @@
 ### Run
 
 ```
-    python quick.py
+    python startquick.py
 ```
+
+### Update url to spider
+
+```
+    python refresh.py
+```
+
+### Set redis server
+* settings.py
+```
+    REDIS_HOST = '127.0.0.1'
+```
+
+### Update headers
+* headers.py
