@@ -41,7 +41,7 @@ class CommentSpider(RedisCrawlSpider):
         if not appid:
             return None
 
-        s_time= datetime.datetime.strptime(STIME[appid], '%Y-%m-%d')
+        s_time= datetime.datetime.strptime(STIME[appid], '%Y-%m-%d %H:%M:%S')
         the_first_review_post_time = utctime_to_localtime(reviews[0]['date'])
 
         if the_first_review_post_time < s_time:
