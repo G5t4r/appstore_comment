@@ -12,4 +12,6 @@ class AppstoreCommentItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     url = scrapy.Field()
-    body = scrapy.Field()
+    reviews = scrapy.Field()
+    s_time = scrapy.Field()
+    url_qs = scrapy.Field()

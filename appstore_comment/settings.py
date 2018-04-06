@@ -14,6 +14,8 @@ BOT_NAME = 'appstore_comment'
 SPIDER_MODULES = ['appstore_comment.spiders']
 NEWSPIDER_MODULE = 'appstore_comment.spiders'
 
+REDIS_HOST = '127.0.0.1'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'appstore_comment (+http://www.yourdomain.com)'
