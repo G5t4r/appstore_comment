@@ -89,7 +89,7 @@ class AppstoreCommentDownloaderMiddleware(object):
         client_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
         headers = random.choice(apples)
         headers['X-Apple-I-Client-Time'] =  client_time
-        request_with_apple_headers = Request(url, headers=headers)
+        request_with_apple_headers = Request(url, headers=headers, dont_filter=True)
         return request_with_apple_headers
 
     def process_response(self, request, response, spider):
