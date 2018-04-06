@@ -1,6 +1,6 @@
 ### equirements
 
-* Python 2.7 or Python 3.4+
+* Python 2.7
 
 ### Install
 
@@ -27,3 +27,6 @@
 ```
     REDIS_HOST = '127.0.0.1'
 ```
+
+### Update headers
+* headers.py
